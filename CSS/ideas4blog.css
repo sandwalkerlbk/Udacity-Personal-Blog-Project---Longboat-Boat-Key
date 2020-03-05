@@ -1,0 +1,136 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+
+body {
+    background-color: #fefefe;
+    font-family: 'Montserrat', sans-serif;
+    width: 90%;
+}
+
+header {
+    text-align: center;
+}
+
+margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(6, 24, 73, 0.575);
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 2% 2% 2% 2%;
+    width: 100%;
+    height: auto;
+    border-radius: 1em;
+    padding: 1em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 100;
+    color: #008080;
+    text-align: center;
+}
+
+#author {
+    font-size: large;
+    font-weight: 600;
+    color: #5F9EA0;
+}
+
+
+figure {
+    margin: 0;
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    width: 100%;
+    max-width: 1500px;
+    height: auto;
+}
+
+#clickherebutton {
+    height: 37px;
+    width: 180px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(88, 93, 136);
+    border: 1px solid rgb(88, 93, 136);
+    font-weight: 400;
+    color: rgb(118, 255, 253);
+    margin-left: 5px;
+}
+
+#clickherebutton:hover {
+    filter: brightness(120%);
+}
+
+.half-page-image {
+    width: 25%;
+    display: inline-block;
+  }
+  
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+
+blockquote {
+    margin: 0;
+}
+
+
+#quote {
+    padding: 15px;
+    background: #eee;
+    border-radius: 5px;
+    border: 2px #AFEEEE;
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+}
+
+
+blockquote p::before {
+    content: '\201C';
+}
+
+
+blockquote p::after {
+    content: '\201D';
+}
+
+
+h4 {
+    font-size: larger;
+    color: #20B2AA;
+}
+
+
+
+
+footer {
+    width: 100%;
+    padding: 5%;
+}

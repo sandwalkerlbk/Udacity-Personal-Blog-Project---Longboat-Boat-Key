@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+
+body {
+    background-color: #fefefe;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    margin: 0;
+}
+
+#clickherebutton {
+    height: 37px;
+    width: 180px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(88, 93, 136);
+    border: 1px solid rgb(88, 93, 136);
+    font-weight: 400;
+    color: rgb(118, 255, 253);
+    margin-left: 5px;
+}
+
+#clickherebutton:hover {
+    filter: brightness(120%);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/confectionary.png);
+}
+
+
+h1 {
+    font-size: 40px;
+    font-weight: 100;
+    color: #008080;
+    text-align: center;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 100;
+    color: #f8b807e3;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin:  auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .note {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+
+#avatar {
+    display: flex;
+    flex-direction: row;
+}
+
+
+#avatar_image {
+    max-width: 150px;
+    max-height: 150px;
+    margin: 10px;
+}
+
+
+#author {
+    font-size: large;
+    font-weight: 600;
+    color: #5F9EA0;
+}
+
+
+
+
+footer {
+    width: 100%;
+    padding: 5%;
+}

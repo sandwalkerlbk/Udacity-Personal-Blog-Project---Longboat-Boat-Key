@@ -115,6 +115,17 @@ h4 {
     width: 40px;
 }
 
+.avatar-link-img {
+    height: 40px;
+    width: 40px;
+}
+
+.footer-links-img {
+    height: 40px;
+    width: 40px;
+}
+
+
 .wrapper {
     display: grid;
     grid-gap: 10px;
